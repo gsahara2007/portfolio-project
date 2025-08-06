@@ -111,11 +111,11 @@ const About = () => {
                      <div className="text-white text-sm">GPA</div>
                    </div>
                    <div className="text-center">
-                     <div className="text-3xl font-bold text-secondary-400 mb-2">4+</div>
+                     <div className="text-3xl font-bold text-secondary-400 mb-2">2+</div>
                      <div className="text-white text-sm">Internships</div>
                    </div>
                    <div className="text-center">
-                     <div className="text-3xl font-bold text-neon-400 mb-2">6+</div>
+                     <div className="text-3xl font-bold text-neon-400 mb-2">3+</div>
                      <div className="text-white text-sm">Projects</div>
                    </div>
                    <div className="text-center">

@@ -53,9 +53,9 @@ const Skills = () => {
       title: "Web Development",
       skills: [
         { name: "HTML/CSS", level: 85, color: "from-red-400 to-red-600" },
-        { name: "JavaScript", level: 80, color: "from-yellow-400 to-yellow-600" },
-        { name: "React", level: 75, color: "from-blue-400 to-blue-600" },
-        { name: "MySQL", level: 82, color: "from-cyan-400 to-cyan-600" },
+        { name: "TypeScript", level: 80, color: "from-yellow-400 to-yellow-600" },
+        { name: "Javascript", level: 75, color: "from-blue-400 to-blue-600" },
+        { name: "React", level: 82, color: "from-cyan-400 to-cyan-600" },
       ]
     },
     {
@@ -63,7 +63,7 @@ const Skills = () => {
       skills: [
         { name: "Python", level: 85, color: "from-yellow-400 to-yellow-600" },
         { name: "Java", level: 75, color: "from-red-400 to-red-600" },
-        { name: "C++", level: 70, color: "from-blue-400 to-blue-600" },
+        { name: "C", level: 70, color: "from-blue-400 to-blue-600" },
         { name: "SQL", level: 80, color: "from-green-400 to-green-600" },
       ]
     },

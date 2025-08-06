@@ -121,7 +121,7 @@ const Projects = () => {
           {/* Section header */}
           <motion.div variants={itemVariants} className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              My <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent animate-gradient-x">Projects</span>
+              My <span className="gradient-text">Projects</span>
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-primary-500 to-secondary-500 mx-auto rounded-full"></div>
             <p className="text-white text-lg mt-4 max-w-2xl mx-auto">
@@ -138,7 +138,7 @@ const Projects = () => {
                 className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${
                   activeFilter === category.id
                     ? 'bg-gradient-to-r from-primary-500 to-secondary-500 text-white shadow-lg'
-                    : 'bg-white/10 text-white !text-white hover:bg-white/20 border border-white/20'
+                    : 'bg-white/10 text-theme-secondary hover:bg-white/20 border border-white/20'
                 }`}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -196,7 +196,7 @@ const Projects = () => {
 
                   {/* Project content */}
                   <div className="p-6 space-y-4">
-                    <h3 className="text-xl font-bold bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent animate-gradient-x group-hover:text-primary-300 transition-colors">
+                    <h3 className="text-xl font-bold gradient-text group-hover:opacity-80 transition-opacity">
                       {project.title}
                     </h3>
                     
@@ -209,7 +209,7 @@ const Projects = () => {
                       {project.tags.map((tech, techIndex) => (
                         <motion.span
                           key={techIndex}
-                          className="px-3 py-1 bg-gradient-to-r from-primary-500/20 to-secondary-500/20 rounded-full text-xs text-white border border-primary-400/30 hover:border-primary-400/60 transition-all duration-300"
+                          className="px-3 py-1 bg-gradient-to-r from-primary-500/20 to-secondary-500/20 rounded-full text-xs text-orange-300 border border-primary-400/30 hover:border-primary-400/60 transition-all duration-300"
                           whileHover={{ 
                             scale: 1.05,
                             boxShadow: "0 0 10px rgba(99, 102, 241, 0.4)"
